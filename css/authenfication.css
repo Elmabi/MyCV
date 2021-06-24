@@ -1,0 +1,82 @@
+:root {
+  --bgColor: #e81e62;
+  --gradColor: #f17aa2;
+  --btnHoverColor: #ad063d;
+  --btnActiveColor: #4e071f;
+}
+
+html {
+  background-color: var(--bgColor);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Tammudu 2", cursive;
+  background-color: hsl(0, 15%, 98%);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-size: 100%;
+}
+
+.center-wrap {
+  margin-top: 15%;
+  max-width: 80rem;
+  min-width: 20rem;
+  width: 25%;
+  padding: 60px 0;
+}
+div {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background: linear-gradient(90deg, var(--bgColor) 0%, var(--gradColor) 100%);
+}
+
+form {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+input {
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 0 7px 0 #bac4cf;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  background: linear-gradient(90deg, var(--bgColor) 0%, var(--gradColor) 100%);
+  border-radius: 5px;
+  border-style: none;
+  margin: 30px;
+}
+
+button:hover {
+  background: var(--btnHoverColor);
+}
+
+button:active {
+  background: var(--btnActiveColor);
+}
+
+::placeholder {
+  opacity: 60%;
+  color: rgb(45, 41, 41);
+}
