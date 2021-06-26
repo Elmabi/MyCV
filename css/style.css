@@ -282,7 +282,7 @@ header h1 {
 }
 
 .work-experience-title {
-  list-style-image: url(/MyPortfolio/images/icons/checked_20px.png);
+  list-style-image: url(../images/icons/checked_20px.png);
   list-style-position: inside;
   list-style-type: square;
   margin-top: 30px;
