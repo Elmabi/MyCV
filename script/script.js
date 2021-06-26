@@ -113,3 +113,19 @@ Education.forEach((item) => {
 
   document.querySelector(".education").append(conteneurEducation);
 });
+
+//Button Scroll - up
+let btnScrollUp = document.querySelector(".btn_scroll_up");
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    btnScrollUp.style.display = "block";
+  } else {
+    btnScrollUp.style.display = "none";
+  }
+});
+btnScrollUp.addEventListener("click", () => {
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
+  });
+});
