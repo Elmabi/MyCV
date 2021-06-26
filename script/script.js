@@ -18,7 +18,11 @@ const contentWithLink = (image, title, description) => `
 const mesInformations = Data.map((info) => {
   let li = document.createElement("li");
   li.classList.add("margin-bottom");
-  if (info.title !== "WEB-SITE: " && info.title !== "LINKEDIN: ") {
+  if (
+    info.title !== "WEB-SITE: " &&
+    info.title !== "LINKEDIN: " &&
+    info.title !== "GITHUB: "
+  ) {
     li.innerHTML = contentNoLink(info.image, info.title, info.description);
     return li;
   }

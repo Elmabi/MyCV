@@ -23,12 +23,18 @@ const linkedin = new Information(
   "cutt.ly/armelfranck"
 );
 
+const gitHub = new Information(
+  "images/icons/github_24px.png",
+  "GITHUB: ",
+  "github.com/Elmabi"
+);
+
 // const nom = new Information(
 //   "images/icons/boy_24px.png",
 //   "NOM: ",
 //   "ARMEL FRANCK DJIONGO"
 // );
 
-const Informations = [email, website, linkedin];
+const Informations = [email, website, linkedin, gitHub];
 
 export default Informations;
