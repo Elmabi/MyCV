@@ -20,6 +20,8 @@ const ProfessionalSkills = [
   new Skill("java", 80),
   new Skill(".net", 70),
   new Skill("c++", 50),
+  new Skill("git", 70),
+  new Skill("gitHub", 70),
   new Skill("javascript", 70),
   new Skill("ecmascript", 50),
   new Skill("css", 70),
