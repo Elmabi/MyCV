@@ -9,6 +9,7 @@ document.querySelector("button").onclick = () => {
   let username = document.querySelector("#username").value;
   let password = document.querySelector("#password").value;
   if (username !== usernamePassword[0] || password !== usernamePassword[1]) {
+    alert("Données incorrect");
     return;
   }
 
