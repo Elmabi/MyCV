@@ -337,6 +337,22 @@ header h1 {
   padding-bottom: 15px;
 }
 
+.portfolio_languages {
+  max-width: 80%;
+}
+
+.portfolio_languages > a {
+  text-decoration: none;
+  margin-right: 5rem;
+  color: #6f6f6f;
+}
+
+.portfolio_languages > a:hover {
+  color: #e81e62;
+  text-decoration: underline;
+  text-decoration-color: #6f6f6f;
+}
+
 /* SESSION CONTACT ME */
 .contact-me {
   margin-top: 25px;
