@@ -1,5 +1,5 @@
 var usernamePassword = [];
-fetch("../authentification/authentification.txt")
+fetch("authentification/authentification.txt")
   .then((response) => response.text())
   .then((data) => {
     usernamePassword = data.split(",");
@@ -13,7 +13,7 @@ document.querySelector("button").onclick = () => {
   }
 
   let lien = document.createElement("a");
-  lien.href = "../main.html";
+  lien.href = "main.html";
   document.body.appendChild(lien);
   lien.click();
   lien.remove();
