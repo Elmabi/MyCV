@@ -10,7 +10,7 @@
 ------------------------------------------------*/
 :root {
   --bg-color: #f7f7f7;
-  --introSpeed: 6s;
+  --introSpeed: 2s;
   --introChar: 24;
 }
 
@@ -59,7 +59,7 @@ h3 {
 }
 
 .bienvenue {
-  /* position: relative; */
+  position: relative;
   border-radius: 80px;
   display: inline;
   margin-left: 20%;
@@ -72,7 +72,7 @@ h3 {
   font-family: "Kalam", cursive;
 }
 
-/* .bienvenue::before,
+.bienvenue::before,
 .bienvenue::after {
   content: "";
   position: absolute;
@@ -92,16 +92,16 @@ h3 {
   background: rgb(146, 139, 139);
   animation: typewriter var(--introSpeed) steps(var(--introChar)) 1s forwards,
     blink 750ms steps(var(--introChar)) 6s forwards;
-} */
+}
 
 .box-shadow-light {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .main-body {
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--introSpeed) + 2s) forwards; */
+  animation: fadeInUp 2s ease calc(var(--introSpeed) + 1s) forwards;
   padding-top: 0;
   margin-top: 0;
   display: grid;
@@ -109,7 +109,7 @@ h3 {
   column-gap: 35px;
 }
 
-/* @keyframes fadeInUp {
+@keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
@@ -126,7 +126,7 @@ h3 {
   to {
     background: transparent;
   }
-} */
+}
 
 .content-left {
   border-radius: 5px;
