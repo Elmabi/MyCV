@@ -37,19 +37,19 @@ let descriptionNumelec = [
 const workExperiences = [
   new WorkExperience(
     "BF BEAUTY SERVICES",
-    "Développeur-Web Junior",
+    "Développeur-WordPress Junior",
     descriptionBlackFashion.join(" "),
     "https://bfbeautyservices.com/"
   ),
   new WorkExperience(
     "PERLEASE",
-    "Commercial",
+    "Représentant des ventes",
     descriptionPerlease.join(" "),
     "https://www.perlease.de/"
   ),
   new WorkExperience(
     "NUMELEC-CAMEROUN",
-    "Technico-Commercial",
+    "Représentant Technico-Commercial",
     descriptionNumelec.join(" "),
     "https://www.numelec.com/"
   ),
