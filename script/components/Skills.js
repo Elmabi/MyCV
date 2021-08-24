@@ -32,8 +32,29 @@ const ProfessionalSkills = [
   new Skill("Wordpress", 70),
 ];
 
+const OutilsDeveloppement = [
+  new Skill("VS Code", 90),
+  new Skill("Visual Studio", 90),
+  new Skill("IntelliJ", 90),
+  new Skill("Eclipse", 90),
+  new Skill("NetBeans", 60),
+  new Skill("VMWare", 60),
+  new Skill("Notepad ++", 80),
+  new Skill("CodeBlocks", 50),
+  new Skill("OpenModelSphere", 50),
+  new Skill("Microsoft SQL Management Studio ", 80),
+  new Skill("Visual Paradigm", 60),
+  new Skill("SAP", 50),
+  new Skill("Pycharm", 60),
+  new Skill("Windows XP/7/10", 100),
+  new Skill("Linux", 60),
+  new Skill("Windows Server", 50),
+  new Skill("MS Office ", 80),
+];
+
 const mySkills = new Map();
 mySkills.set("professionalSkills", ProfessionalSkills);
 mySkills.set("personalSkills", PersonalSkills);
+mySkills.set("outilsDevellopement", OutilsDeveloppement);
 
 export default mySkills;

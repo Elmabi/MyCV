@@ -96,6 +96,23 @@ mySkills.get("professionalSkills").forEach((item) => {
   conteneurProfessionalSkills.append(div);
 });
 
+// OUTILS DEVELLOPEMENT
+const conteneurOutilsDev = document.querySelector(".content-dev-tools");
+
+const contentOutilsDev = (intitule, width) => `
+<span class="personal-skills-title"> ${intitule} </span>
+<div class="skillbar-container">
+    <div class="skillbar" style="width: ${width}%; border-radius: 15px;">100</div>
+</div>
+`;
+
+mySkills.get("outilsDevellopement").forEach((item) => {
+  const div = document.createElement("div");
+  div.classList.add("margin-bottom");
+  div.innerHTML = contentOutilsDev(item.intitule, item.weight);
+  conteneurOutilsDev.append(div);
+});
+
 // EDUCATION
 
 const contentEducation = (diplome, year, description) => `
