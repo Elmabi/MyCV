@@ -14,12 +14,24 @@ const PersonalSkills = [
   new Skill("français", 90),
   new Skill("anglais", 70),
   new Skill("allemand", 70),
+  new Skill("Concepts de la POO", 90),
+  new Skill("Techniques de développement dans un environnement graphique", 80),
+  new Skill(
+    "Conception et réalisation des BD relationnelles et exploitation en Oracle",
+    70
+  ),
+  new Skill("Techniques de développement d'applications Hypermédias", 70),
 ];
 
 const ProfessionalSkills = [
   new Skill("java", 80),
   new Skill(".net", 70),
   new Skill("c++", 50),
+  new Skill("php", 50),
+  new Skill("asp.net", 50),
+  new Skill("pl/sql", 50),
+  new Skill("react", 50),
+  new Skill("nodeJs", 50),
   new Skill("git", 70),
   new Skill("gitHub", 70),
   new Skill("javascript", 70),
