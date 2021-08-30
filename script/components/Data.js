@@ -14,7 +14,7 @@ const email = new Information(
 const website = new Information(
   "images/icons/website_24px.png",
   "WEB-SITE: ",
-  "elmabi.com"
+  "franckdjiongo.ca"
 );
 
 const linkedin = new Information(
